@@ -24,7 +24,7 @@ class ResUsers(models.Model):
         return {
             "name": _("Roles history"),
             "type": "ir.actions.act_window",
-            "view_mode": "tree,form",
+            "view_mode": "list,form",
             "res_model": "base.user.role.line.history",
             "domain": domain,
         }
