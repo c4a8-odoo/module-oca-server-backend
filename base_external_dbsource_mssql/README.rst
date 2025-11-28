@@ -1,7 +1,3 @@
-.. image:: https://odoo-community.org/readme-banner-image
-   :target: https://odoo-community.org/get-involved?utm_source=readme
-   :alt: Odoo Community Association
-
 ================================
 External Database Source - MSSQL
 ================================
@@ -17,7 +13,7 @@ External Database Source - MSSQL
 .. |badge1| image:: https://img.shields.io/badge/maturity-Beta-yellow.png
     :target: https://odoo-community.org/page/development-status
     :alt: Beta
-.. |badge2| image:: https://img.shields.io/badge/license-LGPL--3-blue.png
+.. |badge2| image:: https://img.shields.io/badge/licence-LGPL--3-blue.png
     :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 .. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fserver--backend-lightgray.png?logo=github
@@ -45,9 +41,9 @@ Installation
 
 To install this module, you need to:
 
-- Install & configure FreeTDS driver (tdsodbc package)
-- Install ``sqlalchemy`` & ``pymssql`` python libraries
-- Install ``base_external_dbsource`` Odoo module
+-  Install & configure FreeTDS driver (tdsodbc package)
+-  Install ``sqlalchemy`` & ``pymssql`` python libraries
+-  Install ``base_external_dbsource`` Odoo module
 
 Configuration
 =============
@@ -62,17 +58,17 @@ Usage
 
 To use this module:
 
-- Go to Settings > Technical > Database Structure > Database Sources
-- Click on Create to enter the following information:
-- Datasource name 
-- Pasword
-- Connector: Choose the database to which you want to connect
-- Connection string: Specify how to connect to database
+-  Go to Settings > Technical > Database Structure > Database Sources
+-  Click on Create to enter the following information:
+-  Datasource name 
+-  Pasword
+-  Connector: Choose the database to which you want to connect
+-  Connection string: Specify how to connect to database
 
 Known issues / Roadmap
 ======================
 
-- Add X.509 authentication
+-  Add X.509 authentication
 
 Bug Tracker
 ===========
@@ -96,22 +92,22 @@ Authors
 Contributors
 ------------
 
-- Daniel Reis <dreis.pt@hotmail.com>
+-  Daniel Reis <dreis.pt@hotmail.com>
 
-- Maxime Chambreuil <maxime.chambreuil@savoirfairelinux.com>
+-  Maxime Chambreuil <maxime.chambreuil@savoirfairelinux.com>
 
-- Gervais Naoussi <gervaisnaoussi@gmail.com>
+-  Gervais Naoussi <gervaisnaoussi@gmail.com>
 
-- Dave Lasley <dave@laslabs.com>
+-  Dave Lasley <dave@laslabs.com>
 
-- 
+-  
 
-  - `Tecnativa <https://www.tecnativa.com>`__:
+   -  `Tecnativa <https://www.tecnativa.com>`__:
 
-    - Sergio Teruel
-    - Carolina Fernandez
+      -  Sergio Teruel
+      -  Carolina Fernandez
 
-- Andrea Cattalani (`Moduon <https://www.moduon.team/>`__)
+-  Andrea Cattalani (`Moduon <https://www.moduon.team/>`__)
 
 Maintainers
 -----------
